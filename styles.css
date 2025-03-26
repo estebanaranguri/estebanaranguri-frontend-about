@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.575)),
+    url(img/pexels-mohan-reddy-4388593.jpg) no-repeat center center/cover fixed;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "YTLC" 500;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 100%;
+    min-height: 500px;
+    height: 100vh;
+}
+
+section.section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
